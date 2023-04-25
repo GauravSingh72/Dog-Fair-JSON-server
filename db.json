@@ -33,6 +33,24 @@
       "kms": 8000,
       "Description": "Tata Nexon with all original documents",
       "Price": 800000
+    },
+    {
+      "id": 3,
+      "brand": "Kiya",
+			"type":"AMT",
+      "year": 2019,
+      "kms": 7000,
+      "Description": "Kia Seltos with all original documents",
+      "Price": 78
+    },
+    {
+      "id": 4,
+      "brand": "Mahindra",
+			"type":"Manual",
+      "year": 2022,
+      "kms": 14324,
+      "Description": "Mahindra XUV 700 with all original documents",
+      "Price": 50
     }
   ],
   "wishlisted_cars": [
