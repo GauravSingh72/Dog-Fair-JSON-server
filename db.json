@@ -20,7 +20,7 @@
       "id": 1,
       "brand": "Tata",
       "year": 2019,
-			"type":"Manual",
+      "type": "Manual",
       "kms": 10000,
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
@@ -28,7 +28,7 @@
     {
       "id": 2,
       "brand": "Tata",
-			"type":"AMT",
+      "type": "AMT",
       "year": 2017,
       "kms": 8000,
       "Description": "Tata Nexon with all original documents",
@@ -37,7 +37,7 @@
     {
       "id": 3,
       "brand": "Kiya",
-			"type":"AMT",
+      "type": "AMT",
       "year": 2019,
       "kms": 7000,
       "Description": "Kia Seltos with all original documents",
@@ -46,7 +46,7 @@
     {
       "id": 4,
       "brand": "Mahindra",
-			"type":"Manual",
+      "type": "Manual",
       "year": 2022,
       "kms": 14324,
       "Description": "Mahindra XUV 700 with all original documents",
@@ -58,42 +58,172 @@
       "id": 1,
       "brand": "Tata",
       "year": 2019,
-			"type":"Manual",
+      "type": "Manual",
       "kms": 10000,
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
     }
   ],
-  "products" : [
+  "products": [
     {
-      "id" : 1,
-      "name" : "Product 1",
-      "category" : "Shirts"
+      "id": 1,
+      "name": "Product 1",
+      "category": "Shirts"
     },
     {
-      "id" : 2,
-      "name" : "Product 2",
-      "category" : "Jeans"
+      "id": 2,
+      "name": "Product 2",
+      "category": "Jeans"
     },
     {
-      "id" : 3,
-      "name" : "Product 3",
-      "category" : "Saree"
+      "id": 3,
+      "name": "Product 3",
+      "category": "Saree"
     },
     {
-      "id" : 4,
-      "name" : "Product 4",
-      "category" : "Trousers"
+      "id": 4,
+      "name": "Product 4",
+      "category": "Trousers"
     },
     {
-      "id" : 5,
-      "name" : "Product 5",
-      "category" : "Suits"
+      "id": 5,
+      "name": "Product 5",
+      "category": "Suits"
     },
     {
-      "id" : 6,
-      "name" : "Product 6",
-      "category" : "T Shirt"
+      "id": 6,
+      "name": "Product 6",
+      "category": "T Shirt"
+    }
+  ],
+  "quiz": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the 2015 Formula 1 World Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": ["Nico Rosberg", "Sebastian Vettel", "Jenson Button"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which Italian footballer told Neuer where he&#039;s putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+      "correct_answer": "Pelle",
+      "incorrect_answers": ["Insigne", "Barzagli", "Giaccherini"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "correct_answer": "4",
+      "incorrect_answers": ["1", "2", "3"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many French Open&#039;s did Bj&ouml;rn Borg win?",
+      "correct_answer": "6",
+      "incorrect_answers": ["4", "9", "2"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When was the FC Schalke 04 founded?",
+      "correct_answer": "1904",
+      "incorrect_answers": ["1909", "2008", "1999"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these countries is NOT a part of the Asian continent?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": ["Georgia", "Russia", "Singapore"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Broome is a town in which state of Australia?",
+      "correct_answer": "Western Australia",
+      "incorrect_answers": ["Northern Territory", "South Australia", "Tasmania"]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Hungary is the only country in the world beginning with H.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these country&#039;s capitals starts with the letter B?",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": ["Jordan", "Kuwait", "Qatar"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Alps are a mountain range on which continent?",
+      "correct_answer": "Europe",
+      "incorrect_answers": ["North America", "Asia", "Africa"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": ["1932", "1930", "1925"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": ["Thomas Paine", "Henry Longfellow", "Nathan Hale"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+      "correct_answer": "Threw them out of a window",
+      "incorrect_answers": [
+        "Insulted their mothers",
+        "Locked them in stockades",
+        "Hung them."
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Thirty Years War ended with which treaty?",
+      "correct_answer": "Peace of Westphalia",
+      "incorrect_answers": [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Peace of Prague"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these facilities was not present on the Titanic?",
+      "correct_answer": "Fainting room",
+      "incorrect_answers": ["Turkish bath", "Kennel", "Squash court"]
     }
   ]
 }
