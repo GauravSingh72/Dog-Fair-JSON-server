@@ -358,7 +358,7 @@
 	},
 	{
 		"id":2,
-		"name": "Classic Vanilla"
+		"name": "Classic Vanilla",
 		"Flavor": "Vanilla",
 		"Description": "Classic vanilla ice cream.",
 		"Price": 200,
