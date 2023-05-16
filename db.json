@@ -373,5 +373,7 @@
 		"Stock": 8
 	}
   ],
-  "cart" : []
+  "cart" : [],
+  "users" :[],
+  "dashboard" : []
 }
