@@ -375,5 +375,6 @@
   ],
   "cart" : [],
   "users" :[],
-  "dashboard" : []
+  "dashboard" : [],
+  "transactions" : []
 }
