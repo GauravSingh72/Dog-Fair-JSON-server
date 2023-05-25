@@ -21,20 +21,8 @@
       "fee": 100
     }
   ],
-  "users": [
-    {
-      "id": 1,
-      "username": "Jane Doe",
-      "email": "Jane@gmail.com",
-      "password": "jane123",
-      "isDoctor": true
-    },
-    {
-      "id": 2,
-      "username": "Alex Sanchez",
-      "email": "Alex@gmail.com",
-      "password": "alex123",
-      "isDoctor": false
-    }
-  ]
+  "users": {
+    "login" : [],
+    "register" :[]
+  }
 }
