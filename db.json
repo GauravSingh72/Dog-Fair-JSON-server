@@ -22,7 +22,16 @@
     }
   ],
   "users": {
-    "login" : [],
+    "login": [
+      {
+        "email": "gaurav@gamil.com",
+        "password": "gaurav123"
+      },
+      {
+        "email": "raman@example.com",
+        "password": "raman123"
+      }
+    ],
     "register" :[]
   }
 }
