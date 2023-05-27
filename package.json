@@ -15,6 +15,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/GauravSingh72/Dog-Fair-JSON-server"
+  },
+  "homepage": "https://github.com/GauravSingh72/Dog-Fair-JSON-server",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
