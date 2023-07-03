@@ -14,5 +14,5 @@ server.use(router)
 const port = 3000;
 
 server.listen(port,() => {
-    console.log("JSON Server is running at port 3000")
+    console.log(`JSON Server is running at port ${port}`)
 })
